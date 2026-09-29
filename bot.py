@@ -1,4 +1,4 @@
-"""Discord bot that reports likely giveaway scams for moderator review."""
+//yo
 
 import logging
 import os
@@ -110,6 +110,6 @@ async def on_message(message: discord.Message) -> None:
 
 
 if not TOKEN:
-    raise RuntimeError("Set DISCORD_TOKEN in your environment or .env file")
+    raise RuntimeError("Set DISCORD_TOKEN or .env file")
 
 bot.run(TOKEN)
