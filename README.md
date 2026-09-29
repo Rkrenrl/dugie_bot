@@ -24,4 +24,4 @@ Keep `.env` private and never post your bot token. If `REPORT_CHANNEL_ID` is uns
 
 Run `python -m unittest discover -s tests`.
 
-The detector checks MrBeast giveaway branding, free Nitro offers, prize/claim language, and suspicious giveaway-related domains. It scans up to three image attachments per message, up to 5 MB each. OCR quality depends on image clarity and Tesseract language data.
+The detector checks MrBeast or scam giveaway branding, free Nitro offers, prize/claim language, and suspicious giveaway-related domains. It scans up to three image attachments per message, up to 5 MB each. OCR quality depends on image clarity and Tesseract language data.
