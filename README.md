@@ -1,4 +1,4 @@
-# dugiebro scam detection
+# DugieBro scam detection bot
 
 A small Discord bot that checks message text and OCR-scans image attachments for common MrBeast giveaway and free Nitro scams. It reports likely matches to a moderator channel for review. Detection is heuristic, so review reports before taking action.
 
